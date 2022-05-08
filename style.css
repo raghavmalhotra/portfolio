@@ -1,0 +1,153 @@
+*{
+     font-family: 'Roboto', sans-serif;
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+
+body{
+    background: #e7e7e7;
+}
+.container{
+    width: 90vw;
+    margin:auto;
+    background: #ffff;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px #a9a7a7;
+    text-align: center;
+
+}
+h1{
+    color:#3d6ed6;
+   
+    font-size: 60px;
+    margin-top: 30px;
+    transition: all .4s;
+    font-weight: 900;
+    cursor: pointer;
+    letter-spacing: 8px;
+    word-spacing: 12px;
+    margin-bottom: 80px;
+}
+
+h2{
+   
+    color: #f17373;
+    font-size: 26x;
+    font-weight: 500; 
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    
+}
+
+
+h3{
+    padding-top:  20px ;
+    color: #3f3f3f;
+    font-weight: 400;
+    margin-top: 80px;
+    text-indent: 15px;
+}
+
+.h1Styled{
+    transform: scale(110%,110%);
+    color:rgb(60, 98, 180);
+    word-spacing: 20px;
+    
+}
+
+
+.img-box{
+    width: 30%;
+    margin: auto;
+    margin-bottom: 30px;
+    
+}
+
+.img-box img{
+    width: 100%;
+    height: auto;
+}
+
+
+footer{
+    width: 100%;
+    background: #3f4ba7;
+    color: #ffff;
+    margin-top: 40px;
+    padding:60px;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+}
+
+
+.fa-brands {
+    padding: 25px;
+    font-size: 40px;
+    width: 30px;
+    
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    
+    color: #818181;
+    transition: all .3s;
+  }
+
+  .fa-brands:hover{
+    color: #5c5c5c;
+  }
+
+
+  .social-container{
+      width: 100%;
+      background: #f6f6f6;
+      text-align: center;
+      border-radius: 3px;
+  }
+
+  /* media queries */
+
+  @media only screen and (max-width: 1000px) {
+
+
+    .container{
+        max-width: 90vw;
+        margin:auto
+    
+    }
+
+
+    .img-box{
+        width: 45%;
+        margin-bottom: 30px;
+        
+    }
+  }
+
+
+
+  @media only screen and (max-width: 700px) {
+
+    .img-box{
+        width: 55%;
+        margin-bottom: 30px;
+        
+    }
+  }
+
+  @media only screen and (max-width: 550px) {
+
+    .img-box{
+        width: 70%;
+        margin-bottom: 30px;
+        
+    }
+
+    .container{
+        width: 97%;
+    }
+  }
