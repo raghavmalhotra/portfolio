@@ -24,7 +24,7 @@ async function getLocation(query){
 
 // getting the weather info using weatherstack API
 async function getWeather(latitude,longitude){
-    const url = `http://api.weatherstack.com/current?access_key=3077e680851e32de23ba54d5eb262d33&query=${latitude},${longitude}`;
+    const url = `https://api.weatherstack.com/current?access_key=3077e680851e32de23ba54d5eb262d33&query=${latitude},${longitude}`;
     const response = await fetch(url);
     const data = await response.json();
     return data.current;
