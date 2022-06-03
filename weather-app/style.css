@@ -125,3 +125,35 @@ button{
     color: #504F4F;
     
 }
+
+
+footer{
+    margin-top: 40px;
+}
+
+footer p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #504F4F;
+   
+}
+@media screen and (max-width: 1000px) {
+    .card{
+        width: 70vw;
+    }
+}
+  
+
+@media screen and (max-width: 600px) {
+    .card{
+        width: 90vw;
+    }
+}
+
+@media screen and (max-width: 50px) {
+    .card{
+        width: 95vw;
+    }
+}
+    
+ 
