@@ -24,7 +24,7 @@ async function getLocation(query){
 
 // getting the weather info using weatherstack API
 async function getWeather(latitude,longitude){
-    const url = `https://api.weatherstack.com/current?access_key=3077e680851e32de23ba54d5eb262d33&query=${latitude},${longitude}`;
+    const url = `https://api.weatherapi.com/v1/current.json?key=c214ea6f8a0040a98d4113420220306&q=${latitude},${longitude}`;
     const response = await fetch(url);
     const data = await response.json();
     return data.current;
@@ -52,23 +52,24 @@ const updateUI = (data) => {
     
 
     const {current,location} = data;
+    console.log(current);
 
     const cityName = document.querySelector('#city-name');
-    cityName.innerHTML = data.location;
+    cityName.innerHTML = location;
 
     const temperature = document.querySelector('#temp');
-    temperature.innerHTML = current.temperature + '&deg; C';
+    temperature.innerHTML = current.temp_c + '&deg; C';
 
     const weatherDesc = document.querySelector('#weather-desc');
-    weatherDesc.innerHTML = `<p> ${current.weather_descriptions}</p>`;
+    weatherDesc.innerHTML = `<p> ${current.condition.text}</p>`;
 
     const feelsLike = document.querySelector('#feels-like');
-    feelsLike.innerHTML = "Feels Like "+ current.feelslike + '&deg; C';
+    feelsLike.innerHTML = "Feels Like "+ current.feelslike_c + '&deg; C';
 
     
     const icon = document.querySelector('#icon');
-    icon.setAttribute('src', current.weather_icons[0]);
+    icon.setAttribute('src', current.condition.icon);
     
 
-    console.log(data.current);
+    // console.log(data.c);
 }
