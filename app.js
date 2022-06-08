@@ -7,12 +7,12 @@ const heroParagraph = document.querySelector(".hero-para");
 const modeText = document.querySelector(".mode-text");
 const mainBody = document.querySelector("body");
 
+const fun = () => title.classList.add("h1Styled");
+const fun2 = () => title.classList.remove("h1Styled");
+
 title.addEventListener("mouseover",fun);
 title.addEventListener("mouseout",fun2);
 
-
-const fun = () => title.classList.add("h1Styled");
-const fun2 = () => title.classList.remove("h1Styled");
 
 const checkBox = document.querySelector("input[type='checkbox']");
 
@@ -50,3 +50,4 @@ const changeMode = mode =>{
     }
 }
 document.onload = checkMode();
+
