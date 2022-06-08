@@ -11,14 +11,27 @@ body{
 .container{
     width: 90vw;
     margin:auto;
-    background: #ffff;
+   
     padding: 30px;
     margin-top: 30px;
     border-radius: 5px;
-    box-shadow: 3px 3px 10px #a9a7a7;
+   
     text-align: center;
 
 }
+
+.containerLightStyled{
+    background: #ffff;
+    box-shadow: 3px 3px 10px #a9a7a7;
+}
+
+
+.containerDarkStyled{
+    background: #2c2c2c;
+    color: #fff;
+}
+
+
 h1{
     color:#3d6ed6;
    
@@ -30,7 +43,31 @@ h1{
     letter-spacing: 8px;
     word-spacing: 12px;
     margin-bottom: 20px;
+    animation: expand 1s ease-in-out infinite;
+
 }
+
+.project-link{
+    color: #3d6ed6;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+    letter-spacing: 8px;
+    word-spacing: 12px;
+    margin-bottom: 20px;
+    animation: expand 1s ease-in-out infinite;
+}
+
+
+ 
+/* animation for h1 */
+
+@keyframes mymove {
+    from {width: 0px;}
+    to {width: 100%;}
+  }
+
 
 h2{
    
@@ -41,6 +78,74 @@ h2{
     margin-bottom: 30px;
     
 }
+
+
+/* slider  */
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #cccccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 100px;
+  }
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+
+
+
+    
+
 
 h2:after{
     content: "";
@@ -67,6 +172,8 @@ h3{
     word-spacing: 20px;
     
 }
+
+
 
 
 .img-box{
@@ -125,6 +232,12 @@ footer{
     transition: all .3s;
   }
 
+  .fa-brands-dark-theme{
+    color: #dfdfdf;
+  }
+
+  .fa-brands-dark-theme
+  
   .fa-brands:hover{
     color: #5c5c5c;
   }
@@ -132,7 +245,8 @@ footer{
 
   .social-container{
       width: 100%;
-      background: #f6f6f6;
+      background: rgba(246, 246, 246, 0.119);
+     
       text-align: center;
       border-radius: 3px;
   }
