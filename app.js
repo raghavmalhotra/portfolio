@@ -1,20 +1,17 @@
-title = document.querySelector("h1");
-subhead = document.querySelector("h2");
+
 
 const container = document.querySelector(".container");
 
 const heroParagraph = document.querySelector(".hero-para");
-const modeText = document.querySelector(".mode-text");
+// const modeText = document.querySelector(".mode-text");
 const mainBody = document.querySelector("body");
 
-const fun = () => title.classList.add("h1Styled");
-const fun2 = () => title.classList.remove("h1Styled");
-
-title.addEventListener("mouseover",fun);
-title.addEventListener("mouseout",fun2);
-
-
 const checkBox = document.querySelector("input[type='checkbox']");
+
+const moonIcon = document.querySelector('#moon');
+const iconBody = document.querySelector('#main');
+const moonScars = document.querySelectorAll('.scar');
+
 
 if(localStorage.getItem("mode") === "dark"){
     checkBox.checked = true;
@@ -36,18 +33,31 @@ const changeMode = mode =>{
         container.classList.add("containerDarkStyled");
         container.classList.remove("containerLightStyled");
         heroParagraph.style.color = "#cccccc";
-        modeText.textContent ="Dark Mode";
+       
+        
         mainBody.style.backgroundColor = "#1e1e1e";
         localStorage.setItem("mode","dark");
+
+        iconBody.style.fill = "#E6E6E6"; 
+        document.querySelector(".moon-graphic").style.filter = "drop-shadow(1px 1px 20px  #b2b2b183)" ;  
+        
+        moonScars.forEach(scar => scar.style.opacity = "100%" );
+
     }
     else{
         container.classList.remove("containerDarkStyled");
         container.classList.add("containerLightStyled");
         heroParagraph.style.color = "#3f3f3f";
-        modeText.textContent ="Light Mode"; 
+       
         mainBody.style.backgroundColor = "#f2f2f2";
         localStorage.setItem("mode","light");
+
+        document.querySelector(".moon-graphic").style.filter = "drop-shadow(1px 1px 25px  #f5b833)"
+        iconBody.style.fill = "#f5b833"; 
+
+        moonScars.forEach(scar => scar.style.opacity = " 0 ");
+
+        // moonScars.forEach(scar => scar.style.transform = " translate(50%,50%) scale(0,0) ");
     }
 }
 document.onload = checkMode();
-
