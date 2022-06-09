@@ -42,7 +42,7 @@ h1{
     cursor: pointer;
     letter-spacing: 8px;
     word-spacing: 12px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     animation: expand 1s ease-in-out infinite;
 
 }
@@ -293,3 +293,70 @@ footer{
         width: 97%;
     }
   }
+
+
+
+  /* testing */
+
+
+
+
+
+
+.moon-graphic{
+    width:70%;
+    height:auto;
+    margin-left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(1px 1px 20px  #f5b833) ;
+    cursor: pointer;
+}
+
+
+#main{
+    fill: #E6E6E6;
+    transition: all 0.5s ease;
+   
+}
+
+.scar{
+    fill: #CBCBCB;
+    margin: auto;
+    transition: all .3s ease;
+    
+    
+
+}
+
+
+
+#main_light{
+    fill: #f6b215;
+    transition: all 3s ease;
+}
+
+header{
+  position: relative;
+  width: 100%;
+ 
+ 
+}
+
+header label {
+  position: absolute;
+  
+  right: -40%;
+}
+
+
+
+@keyframes Animation {
+    0.0%{
+        transform: scale(100%);
+    }
+    2.4%{
+        transform: scale(0%);
+    }
+}
+
