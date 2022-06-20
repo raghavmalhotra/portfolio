@@ -1,6 +1,7 @@
 
 const userInput = document.querySelector('#user-input');
 const search = document.querySelector('#btn-search');
+const GPSButton = document.getElementById('btn-search-current')
 const cityName = (city) => {    
     
 }
@@ -28,6 +29,8 @@ async function getWeather(latitude,longitude){
     const response = await fetch(url);
     const data = await response.json();
     return data.current;
+   
+
 }
 
 
@@ -73,3 +76,21 @@ const updateUI = (data) => {
 
     // console.log(data.c);
 }
+
+GPSButton.addEventListener('click', (e) => {
+    e.preventDefault();
+
+    navigator.geolocation.getCurrentPosition( position => {
+        const latitude = position.coords.latitude;
+        const longitude = position.coords.longitude;
+        getWeather(latitude,longitude).then(current => {
+            updateUI({current,location: 'Current Location'});
+        })
+    })
+
+
+
+    
+}   
+)
+

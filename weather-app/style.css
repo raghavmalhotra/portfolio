@@ -118,6 +118,27 @@ button{
     transform: translateX(-50%);
 }
 
+#btn-search-current{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+   
+    background-color: #23c5f7;
+    color: #ffffff;
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+   
+    margin-left: 50%;
+    margin-bottom: 20px;
+    
+}
+
+#or{
+    margin-bottom: 20px;
+}
+
+
 #weather-desc{
     font-size: 14px;
     font-weight: 400;
@@ -136,6 +157,19 @@ footer p{
     font-weight: 400;
     color: #504F4F;
    
+}
+
+ .fa-brands{
+    font-size: 20px;
+    color: #504F4F;
+    margin-bottom: 10px;
+
+}
+
+
+.fa-brands :hover{
+    color: #6569C9;
+    transform: translate(0,3px);
 }
 @media screen and (max-width: 1000px) {
     .card{

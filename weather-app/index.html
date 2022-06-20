@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     
 </head>
 <body>
@@ -27,7 +28,13 @@
 
 
         <div id="search-area">
+
+            <button id="btn-search-current"><i class="fa-solid fa-location-dot"></i></button>
+
+            <p id ="or">or</p>
+            
             <input type="text" id="user-input" name="query" placeholder="Enter A Location to get Weather.." id="search-box">
+            
             <button id="btn-search">Search</button>
         </div>
 
@@ -35,11 +42,14 @@
 
     <footer>
         <p>
-            Written By <a href="https://raghavm.com">Raghav Malhotra</a>. 
+            <a href="https://github.com/raghavmalhotra/weatherapp""><i class="fa-brands fa-github-alt"></i></a>
+            
+             
 
         </p>
 
         <p>RaghavM.com &copy; 2022 </p>
+        
     </footer>
     <script src="app.js"></script>
 </body>
