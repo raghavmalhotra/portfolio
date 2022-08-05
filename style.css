@@ -1,5 +1,5 @@
 * {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Inter', sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -32,10 +32,10 @@ body {
 h1 {
   color: #3d6ed6;
 
-  font-size: 60px;
+  font-size: 80px;
   margin-top: 0px;
   transition: all 0.4s;
-  font-weight: 900;
+  font-weight: 400;
   cursor: pointer;
   letter-spacing: 8px;
   word-spacing: 12px;
@@ -169,11 +169,12 @@ h3 {
 .img-box #avatar_svg {
   width: 100%;
   height: auto;
+  filter: drop-shadow(0px 0px 7px #505050);
 }
 
 p.name {
   color: #f17373;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 22px;
   font-weight: bold;
   margin-bottom: 20px;
@@ -198,15 +199,18 @@ p.name {
 }
 
 .hero-para {
+  font-family: 'Inter', sans-serif;
   margin: auto;
-  max-width: 450px;
+  text-transform: capitalize;
+  font-size: 20px;
+  max-width: 600px;
   color: #3f3f3f;
   letter-spacing: 3px;
   margin-top: 60px;
   word-spacing: 5px;
-  margin-bottom: 60px;
+  margin-bottom: 120px;
   line-height: 40px;
-  font-weight: bold;
+  font-weight: 900;
 }
 
 footer {
