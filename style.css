@@ -292,6 +292,10 @@ footer {
     margin-bottom: 30px;
   }
 
+  h1 {
+    font-size: 60px;
+  }
+
   .container {
     width: 97%;
   }
