@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+
+  <body>
+    <div id="section1">
+      <div class="container">
+        <svg
+          id="birds"
+          width="185"
+          height="194"
+          viewBox="0 0 185 194"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            class="dark-bird"
+            d="M31.756 82.4659L40.9617 75.1031C33.8102 74.3141 30.8718 78.2144 29.6692 81.3015C24.0822 78.9815 18 82.0219 18 82.0219L36.4189 88.7086C35.4897 86.2267 33.8722 84.0612 31.756 82.4659V82.4659Z"
+            fill="#585489"
+          />
+          <path
+            class="dark-bird"
+            d="M171.369 118.892L185 108.15C174.411 106.999 170.06 112.69 168.279 117.193C160.006 113.809 151 118.245 151 118.245L178.273 128C176.897 124.379 174.502 121.22 171.369 118.892V118.892Z"
+            fill="#585489"
+          />
+          <path
+            class="light-bird"
+            d="M94.1753 11.4369L105 0.157955C96.5908 -1.0507 93.1356 4.92404 91.7215 9.65311C85.1519 6.09915 78 10.7568 78 10.7568L99.6583 21C98.5656 17.198 96.6636 13.8807 94.1753 11.4369V11.4369Z"
+            fill="#43415B"
+          />
+          <path
+            class="light-bird"
+            d="M17.3735 183.981L29 172.165C19.9679 170.899 16.2567 177.159 14.7379 182.113C7.68165 178.39 0 183.269 0 183.269L23.2626 194C22.089 190.017 20.0461 186.542 17.3735 183.981Z"
+            fill="#43415B"
+          />
+        </svg>
+        <div id="text-section">
+          <h1>Hi! My name is <span id="name">Raghav Malhotra </span></h1>
+          <p class="hero-para">
+            I build things for web. I create beautiful Fullstack Responsive web
+            Apps. Javascript is the weapon of my choice. I am skilled in
+            <span class="node grow"> NODE.js</span>,
+            <span class="react grow">REACT</span>, and anything Javascript. I
+            can also work with CSS and SCSS.
+          </p>
+        </div>
+        <div id="cta-section">
+          <button id="main-cta">Know more</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- section 2 projects -->
+
+    <div id="section2">
+      <div class="transition-layer"></div>
+
+      <h2>My Projects</h2>
+
+      <div class="container">
+        <div class="project-box" id="weather-project">
+          <div class="icon">
+            <img
+              src="./imgs/icons/weather.svg"
+              alt="weather app by Raghav Malhotra"
+            />
+          </div>
+          <div class="app-name"><span class="b">Weather</span>App</div>
+        </div>
+        <div class="project-box" id="instagram-bot">
+          <div class="icon">
+            <img
+              src="./imgs/icons/instabot.png"
+              alt="weather app by Raghav Malhotra"
+            />
+          </div>
+          <div class="app-name" id="instagram-app-name-box">
+            <div id="instabot-text"><span class="b">Instagram</span>Bot</div>
+          </div>
+        </div>
+        <div class="project-box" id="todo-project">
+          <div class="icon">
+            <img
+              src="./imgs/icons/todo.svg"
+              alt="weather app by Raghav Malhotra"
+            />
+          </div>
+          <div class="app-name">
+            <div>Something<span class="b">Todo</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="section-3">
+      <div class="transition-layer2"></div>
+      <h2>About me</h2>
+      <div id="about-box">
+        <div id="about-text">
+          <p>
+            I am a Web-Dev based in Ontario, Canada. Javascript is my biggest
+            strength but I am also proficient in SQL and NoSQL databases like
+            MongoDB. I have studied various programming paradigms and am
+            comfortable with Object-Oriented languages including but not limited
+            to Java, and C++. I am comfortable with building and working with
+            REST APIs (using Node.js and Express).
+          </p>
+
+          <p>
+            I can work with front-end frameworks like REACT.js . I have good
+            experience working with HTML5 and CSS3 and csss preprocessor (SCSS).
+            Furthermore, I also have a thorough understanding of version control
+            system GIT and graphic manipulation tools like Figma and Adobe
+            Photoshop.
+          </p>
+        </div>
+        <div id="about-img">
+          <img src="/imgs/raghav.jpeg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div id="section-4">
+      <div id="form-box">
+        <h3>Contact me</h3>
+        <form action="https://formspree.io/f/moqrgpzv" method="POST">
+          <label>
+            Your Name: <br />
+            <input type="text" name="name" required /> </label
+          ><br />
+          <label>
+            Your email: <br />
+            <input type="email" name="email" required /> </label
+          ><br />
+          <label>
+            Your message:<br />
+            <textarea name="message" required></textarea></label
+          ><br />
+
+          <button type="submit" id="send-form">Send</button>
+        </form>
+      </div>
+    </div>
+    -->
+    <footer>Raghavm.com &copy; 2022</footer>
+  </body>
+  <script src="./scripts/app.js"></script>
+  <script src="./scripts/form.js"></script>
+  <script src="./scripts/url.js"></script>
+</html>
