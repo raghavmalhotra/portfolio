@@ -187,6 +187,12 @@
 }
 
 @media only screen and (max-width: 500px) {
+  #form-box {
+    width: 90%;
+  }
+  .social-container {
+    width: 90%;
+  }
   h2 {
     font-size: 44px;
     max-width: 80%;
