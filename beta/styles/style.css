@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -98,11 +102,12 @@ h1 {
   position: relative;
 }
 
-button#main-cta {
+#main-cta {
   background: #f9404b;
   color: #fff;
+  text-decoration: none;
   border: 0;
-  font-weight: 100;
+  font-weight: 500;
   font-size: 32px;
   position: relative;
   letter-spacing: 5px;
@@ -110,17 +115,19 @@ button#main-cta {
   /* box-shadow: 5px 10px 15px #1a1a1a9c; */
   transition: all 0.3s ease-in-out;
   width: 300px;
-  height: 70px;
+  height: 65px;
   border-radius: 15px;
+  text-align: center;
+
   cursor: pointer;
 }
 
-button#main-cta:hover {
+#main-cta:hover {
   transform: translateY(-5px);
   box-shadow: 5px 10px 15px #1a1a1a9c;
 }
 
-button#main-cta:active {
+#main-cta:active {
   transform: translateY(5px);
   box-shadow: none;
 }
@@ -343,7 +350,7 @@ h2 .underline {
   left: 0;
   position: relative;
   background: #3a3a46;
-  clip-path: polygon(0 0, 100% 15%, 100% 100%, 0% 100%);
+  clip-path: polygon(0 5%, 50% 0%, 100% 5%, 100% 100%, 0% 100%);
   color: antiquewhite;
   padding: 20px 0;
   /* text-align: center; */

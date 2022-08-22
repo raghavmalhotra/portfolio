@@ -8,7 +8,9 @@ const darkbirds = document.querySelectorAll('.dark-bird')
 const textSection = document.querySelector('#text-section')
 const ctaSection = document.querySelector('#cta-section')
 
-window.addEventListener('scroll', function (e) {
+const KnowMoreBtn = document.getElementById('main-cta')
+
+window.addEventListener('scroll', (e) => {
   e.preventDefault()
   // section1.style.position = 'fixed'
 
