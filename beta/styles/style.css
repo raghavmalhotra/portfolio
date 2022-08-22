@@ -259,10 +259,23 @@ h2 .underline {
   box-sizing: border-box;
   background: #59597c;
   color: antiquewhite;
-  padding: 10px 0 150px 0;
+  padding: 10px 0 350px 0;
   text-align: center;
-
   position: relative;
+}
+
+#about-box::after {
+  content: '';
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  transform: translateX(-50%);
+  top: -20%;
+  left: 46%;
+  border-radius: 1000px;
+  background-image: url(../imgs/raghav.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #about-box {
@@ -274,36 +287,12 @@ h2 .underline {
   margin-top: 200px;
   position: relative;
   box-sizing: border-box;
+  background: #0000006b;
+  padding: 60px 30px;
   box-shadow: 5px 10px 15px #262525b7;
 }
 
-#about-box::after {
-  content: '';
-  width: 180px;
-  height: 180px;
-  position: absolute;
-
-  transform: translateX(-50%);
-  top: -20%;
-  left: 46%;
-  border-radius: 1000px;
-
-  background-image: url(../imgs/raghav.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#about-text {
-  padding: 60px 30px;
-  width: 100%;
-  float: right;
-  background: #0000006b;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  border-radius: 20px;
-}
-
-#about-text p {
+#about-box p {
   font-size: 18px;
   font-weight: 300;
   text-align: left;
@@ -448,7 +437,34 @@ form textarea {
   -webkit-text-fill-color: transparent; */
 }
 
-/* media queries */
+fa-brands {
+  padding: 25px;
+  font-size: 40px;
+  width: 30px;
+
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+
+  color: #818181;
+  transition: all 0.3s;
+}
+
+.fa-brands-dark-theme {
+  color: #dfdfdf;
+}
+
+.fa-brands-dark-theme .fa-brands:hover {
+  color: #5c5c5c;
+}
+
+.social-container {
+  width: 100%;
+  background: rgba(187, 186, 186, 0.119);
+
+  text-align: center;
+  border-radius: 3px;
+}
 
 @keyframes gradient {
   0% {
