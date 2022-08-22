@@ -2,13 +2,9 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Raghav Malhotra</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Raghav Malhotra Portfolio</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -20,158 +16,147 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/media_queries.css" />
   </head>
+
   <body>
-    <div class="container containerLightStyled">
-      <header>
-        <label class="switch">
-          <input type="checkbox" />
-          <svg
-            class="moon-graphic"
-            width="80"
-            height="80"
-            viewBox="0 0 80 80"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <g id="moon">
-              <path
-                id="main"
-                d="M40 80C62.0914 80 80 62.0914 80 40C80 17.9086 62.0914 0 40 0C17.9086 0 0 17.9086 0 40C0 62.0914 17.9086 80 40 80Z"
-              />
-              <g id="moonScars">
-                <path
-                  class="scar"
-                  d="M36.0656 17.0492C38.6006 17.0492 40.6557 14.9941 40.6557 12.459C40.6557 9.92394 38.6006 7.86885 36.0656 7.86885C33.5305 7.86885 31.4754 9.92394 31.4754 12.459C31.4754 14.9941 33.5305 17.0492 36.0656 17.0492Z"
-                />
-                <path
-                  class="scar"
-                  d="M43.9344 62.9508C46.4695 62.9508 48.5246 60.8957 48.5246 58.3606C48.5246 55.8256 46.4695 53.7705 43.9344 53.7705C41.3993 53.7705 39.3443 55.8256 39.3443 58.3606C39.3443 60.8957 41.3993 62.9508 43.9344 62.9508Z"
-                />
-                <path
-                  class="scar"
-                  d="M61.6393 36.0656C63.4501 36.0656 64.918 34.5976 64.918 32.7869C64.918 30.9761 63.4501 29.5082 61.6393 29.5082C59.8286 29.5082 58.3607 30.9761 58.3607 32.7869C58.3607 34.5976 59.8286 36.0656 61.6393 36.0656Z"
-                />
-                <path
-                  class="scar"
-                  d="M24.2623 53.7705C30.0568 53.7705 34.7541 49.0731 34.7541 43.2787C34.7541 37.4842 30.0568 32.7869 24.2623 32.7869C18.4678 32.7869 13.7705 37.4842 13.7705 43.2787C13.7705 49.0731 18.4678 53.7705 24.2623 53.7705Z"
-                />
-              </g>
-            </g>
-          </svg>
-        </label>
-      </header>
-
-      <p class="name">Hi! My Name is</p>
-
-      <h1>Raghav Malhotra</h1>
-
-      <div class="img-box">
+    <div id="section1">
+      <div class="container">
         <svg
-          width="72"
-          height="72"
-          id="avatar_svg"
-          viewBox="0 0 72 72"
+          id="birds"
+          width="185"
+          height="194"
+          viewBox="0 0 185 194"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
         >
-          <g clip-path="url(#clip0_2_3)">
-            <path
-              d="M72 36C72.0064 40.8733 71.02 45.6968 69.1008 50.1763L68.9815 50.4511C65.7352 57.8364 60.1062 63.9197 52.9946 67.7284C45.883 71.537 37.6997 72.8509 29.7533 71.46C29.537 71.4217 29.3212 71.3819 29.1057 71.3407C26.8789 70.909 24.6984 70.266 22.5937 69.4204C22.2518 69.283 21.9124 69.1406 21.5755 68.9933C21.3454 68.8931 21.1154 68.7898 20.8875 68.6833C14.6524 65.7935 9.37333 61.1815 5.67259 55.3908C1.97185 49.6002 0.00366034 42.8722 0 36C0 16.118 16.118 0 36 0C55.882 0 72 16.118 72 36Z"
-              fill="#3D6ED6"
-            />
-            <path
-              opacity="0.2"
-              d="M29.7533 71.46C29.537 71.4217 29.3212 71.3819 29.1057 71.3407C28.9651 67.2604 28.4826 58.8856 26.837 50.1146C25.937 45.3142 24.6877 40.3935 22.9548 35.9947C22.3611 34.4726 21.683 32.9849 20.9237 31.5383C19.1727 28.2312 17.0489 25.4471 14.4735 23.5608L14.8527 23.0432C16.9946 24.6131 18.9195 26.8172 20.6276 29.6553C21.1399 30.5052 21.632 31.412 22.1038 32.3755C22.6097 33.4065 23.0922 34.5011 23.5512 35.6592C23.8441 36.3962 24.1271 37.1588 24.4001 37.947C25.5888 41.3691 26.5992 45.2737 27.4314 49.6608C27.6156 50.6301 27.791 51.6231 27.9575 52.6399C29.2473 60.5183 29.6361 67.8025 29.7533 71.46Z"
-              fill="black"
-            />
-            <path
-              opacity="0.2"
-              d="M21.5755 68.9933C21.3454 68.8931 21.1154 68.7898 20.8875 68.6833C20.6648 66.2656 20.2559 63.2663 19.5082 60.4193C19.1807 59.1406 18.7603 57.8876 18.2503 56.6702C17.3972 54.6731 16.2927 52.9754 14.8644 51.9284L15.2435 51.4118C16.7389 52.5067 17.8924 54.2375 18.7839 56.2622C19.7883 58.5437 20.4582 61.1989 20.9045 63.736C21.2357 65.6201 21.4445 67.4404 21.5755 68.9933Z"
-              fill="black"
-            />
-            <path
-              d="M10.8918 23.5459C12.6617 23.5459 14.0965 22.1111 14.0965 20.3412C14.0965 18.5713 12.6617 17.1365 10.8918 17.1365C9.12188 17.1365 7.68708 18.5713 7.68708 20.3412C7.68708 22.1111 9.12188 23.5459 10.8918 23.5459Z"
-              fill="#F17373"
-            />
-            <path
-              d="M11.9238 51.1327C13.6937 51.1327 15.1285 49.6979 15.1285 47.928C15.1285 46.1581 13.6937 44.7233 11.9238 44.7233C10.1539 44.7233 8.71912 46.1581 8.71912 47.928C8.71912 49.6979 10.1539 51.1327 11.9238 51.1327Z"
-              fill="#F17373"
-            />
-            <path
-              opacity="0.2"
-              d="M23.6146 25.7242C22.935 29.5582 24.4352 33.0299 24.4352 33.0299C24.4352 33.0299 27.0372 30.2853 27.7167 26.4513C28.3963 22.6172 26.8961 19.1456 26.8961 19.1456C26.8961 19.1456 24.2941 21.8901 23.6146 25.7242Z"
-              fill="black"
-            />
-            <path
-              opacity="0.2"
-              d="M12.964 34.8253C16.621 36.1626 20.2957 35.3044 20.2957 35.3044C20.2957 35.3044 18.0414 32.2782 14.3844 30.941C10.7274 29.6038 7.05266 30.4619 7.05266 30.4619C7.05266 30.4619 9.30703 33.4881 12.964 34.8253Z"
-              fill="black"
-            />
-            <path
-              opacity="0.2"
-              d="M12.3439 59.2544C14.9071 60.1917 17.4865 59.5803 17.4865 59.5803C17.4865 59.5803 15.91 57.4492 13.3467 56.5119C10.7835 55.5746 8.20413 56.186 8.20413 56.186C8.20413 56.186 9.78064 58.3171 12.3439 59.2544Z"
-              fill="black"
-            />
-            <path
-              d="M35.9261 43.9721C43.6772 43.9721 49.9608 37.6885 49.9608 29.9374C49.9608 22.1862 43.6772 15.9027 35.9261 15.9027C28.1749 15.9027 21.8914 22.1862 21.8914 29.9374C21.8914 37.6885 28.1749 43.9721 35.9261 43.9721Z"
-              fill="#A76A6A"
-            />
-            <path
-              d="M30.4438 40.6827C30.4438 40.6827 32.1981 49.0158 32.1981 49.893C32.1981 50.7701 40.5312 54.7174 40.5312 54.7174L47.9871 53.4016L50.6187 45.5071C50.6187 45.5071 46.2328 38.9284 46.2328 36.2969L30.4438 40.6827Z"
-              fill="#A76A6A"
-            />
-            <path
-              d="M23.7552 18.6301C23.7552 18.6301 28.2112 8.97552 36.7518 11.2035C45.2924 13.4315 50.1197 16.7735 50.491 20.1154C50.8624 23.4574 50.3054 28.4704 50.3054 28.4704C50.3054 28.4704 49.377 21.6007 43.4357 23.0861C37.4945 24.5714 28.2112 23.4574 28.2112 23.4574L26.7259 36.8253C26.7259 36.8253 25.0549 34.4116 23.1983 35.897C21.3416 37.3823 17.814 21.6007 23.7552 18.6301Z"
-              fill="#2F2E41"
-            />
-            <path
-              d="M69.1008 50.1763L68.9815 50.4511C65.7352 57.8364 60.1062 63.9197 52.9946 67.7284C45.883 71.537 37.6997 72.8509 29.7533 71.46C29.537 71.4217 29.3212 71.3819 29.1057 71.3407C26.8789 70.909 24.6984 70.266 22.5937 69.4204C22.2518 69.283 21.9124 69.1406 21.5755 68.9933C21.3454 68.8931 21.1154 68.7898 20.8875 68.6833C18.8215 67.7262 16.8511 66.575 15.0028 65.2452L13.3392 60.4193L14.2743 59.7057L16.1979 58.2369L18.2503 56.6702L18.7839 56.2623L26.837 50.1146L27.4314 49.6608L31.6172 46.4656L31.6182 46.4645C31.6182 46.4645 36.1449 53.8402 42.7239 51.6472C49.303 49.4542 49.1592 43.1659 49.1592 43.1659L69.1008 50.1763Z"
-              fill="#2F2E41"
-            />
-            <path
-              d="M22.5937 69.4204C22.2518 69.283 21.9124 69.1406 21.5755 68.9933C21.3454 68.8931 21.1154 68.7898 20.8875 68.6833C17.4706 67.0989 14.3227 64.9893 11.5583 62.4312C12.5372 61.0978 13.3392 60.4193 13.3392 60.4193H19.9182L20.9045 63.736L22.5937 69.4204Z"
-              fill="#2F2E41"
-            />
-            <path
-              d="M63.3376 49.4542L68.9815 50.4511C67.4712 53.8919 65.4313 57.075 62.9361 59.8846L63.3376 49.4542Z"
-              fill="#2F2E41"
-            />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_3">
-              <rect width="72" height="72" fill="white" />
-            </clipPath>
-          </defs>
+          <path
+            class="dark-bird"
+            d="M31.756 82.4659L40.9617 75.1031C33.8102 74.3141 30.8718 78.2144 29.6692 81.3015C24.0822 78.9815 18 82.0219 18 82.0219L36.4189 88.7086C35.4897 86.2267 33.8722 84.0612 31.756 82.4659V82.4659Z"
+            fill="#585489"
+          />
+          <path
+            class="dark-bird"
+            d="M171.369 118.892L185 108.15C174.411 106.999 170.06 112.69 168.279 117.193C160.006 113.809 151 118.245 151 118.245L178.273 128C176.897 124.379 174.502 121.22 171.369 118.892V118.892Z"
+            fill="#585489"
+          />
+          <path
+            class="light-bird"
+            d="M94.1753 11.4369L105 0.157955C96.5908 -1.0507 93.1356 4.92404 91.7215 9.65311C85.1519 6.09915 78 10.7568 78 10.7568L99.6583 21C98.5656 17.198 96.6636 13.8807 94.1753 11.4369V11.4369Z"
+            fill="#43415B"
+          />
+          <path
+            class="light-bird"
+            d="M17.3735 183.981L29 172.165C19.9679 170.899 16.2567 177.159 14.7379 182.113C7.68165 178.39 0 183.269 0 183.269L23.2626 194C22.089 190.017 20.0461 186.542 17.3735 183.981Z"
+            fill="#43415B"
+          />
         </svg>
+        <div id="text-section">
+          <h1>Hi! My name is <span id="name">Raghav Malhotra </span></h1>
+          <p class="hero-para">
+            I build things for web. I create beautiful Fullstack Responsive web
+            Apps. Javascript is the weapon of my choice. I am skilled in
+            <span class="node grow"> NODE.js</span>,
+            <span class="react grow">REACT</span>, and anything Javascript. I
+            can also work with CSS and SCSS.
+          </p>
+        </div>
+        <div id="cta-section">
+          <a href="#section-3" id="main-cta">Know more</a>
+        </div>
       </div>
+    </div>
 
-      <p class="hero-para">
-        I build things for web. I am extremely passionate about programming. I
-        mostly work with javascript and its various frameworks. I am skilled in
-        <span class="node"> NODE.js</span>,
-        <span class="react grow">REACT</span> , and anything Javascript. I can
-        also work with CSS and SCSS.
-      </p>
+    <!-- section 2 projects -->
 
-      <a id="mail" href="mailto: malhotraraghav699@gmail.com"
-        ><i class="fa fa-envelope" aria-hidden="true"></i
-      ></a>
+    <div id="section2">
+      <div class="transition-layer"></div>
 
-      <h2>My projects</h2>
-      <p>
-        <a class="project-link" href="https://raghavm.com/weather-app"
-          >Weather App</a
-        >
-      </p>
+      <h2>My Projects</h2>
 
-      <p>
-        <a
-          class="project-link"
-          href="https://github.com/raghavmalhotra/instagram-bot"
-          >Instagram Bot</a
-        >
-      </p>
+      <div class="container">
+        <div class="project-box" id="weather-project">
+          <div class="icon">
+            <img
+              src="./imgs/icons/weather.svg"
+              alt="weather app by Raghav Malhotra"
+            />
+          </div>
+          <div class="app-name"><span class="b">Weather</span>App</div>
+        </div>
+        <div class="project-box" id="instagram-bot">
+          <div class="icon">
+            <img
+              src="./imgs/icons/instabot.png"
+              alt="weather app by Raghav Malhotra"
+            />
+          </div>
+          <div class="app-name" id="instagram-app-name-box">
+            <div id="instabot-text"><span class="b">Instagram</span>Bot</div>
+          </div>
+        </div>
+        <div class="project-box" id="todo-project">
+          <div class="icon">
+            <img
+              src="./imgs/icons/todo.svg"
+              alt="weather app by Raghav Malhotra"
+            />
+          </div>
+          <div class="app-name">
+            <div>Something<span class="b">Todo</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="section-3">
+      <div class="transition-layer2"></div>
+      <h2>About me</h2>
+      <div id="about-box">
+        <p>
+          I am a Web-Dev based in Ontario, Canada. Javascript is my biggest
+          strength but I am also proficient in SQL and NoSQL databases like
+          MongoDB. I have studied various programming paradigms and am
+          comfortable with Object-Oriented languages including but not limited
+          to Java, and C++. I am comfortable with building and working with REST
+          APIs (using Node.js and Express).
+        </p>
+
+        <p>
+          I can work with front-end frameworks like REACT.js . I have good
+          experience working with HTML5 and CSS3 and csss preprocessor (SCSS).
+          Furthermore, I also have a thorough understanding of version control
+          system GIT and graphic manipulation tools like Figma and Adobe
+          Photoshop.
+        </p>
+
+        <!-- <div id="about-img">
+          <img src="/beta/imgs/raghav.jpeg" alt="" />
+        </div> -->
+      </div>
+    </div>
+
+    <div id="section-4">
+      <div id="form-box">
+        <h3>Contact me</h3>
+        <form action="https://formspree.io/f/moqrgpzv" method="POST">
+          <label>
+            Your Name: <br />
+            <input type="text" name="name" required /> </label
+          ><br />
+          <label>
+            Your email: <br />
+            <input type="email" name="email" required /> </label
+          ><br />
+          <label>
+            Your message:<br />
+            <textarea name="message" required></textarea></label
+          ><br />
+
+          <button type="submit" id="send-form">Send</button>
+        </form>
+      </div>
 
       <div class="social-container">
         <h3>Cash me outside!</h3>
@@ -191,13 +176,12 @@
           ><i class="fa fa-brands fa-instagram"></i
         ></a>
       </div>
-
-      <!-- <h3>Thanks for stopping by, check back later. </h3> -->
+      <footer>
+        <p>RaghavM.com &copy; 2022</p>
+      </footer>
     </div>
-
-    <footer>
-      <p>RaghavM.com &copy; 2022</p>
-    </footer>
   </body>
-  <script src="app.js"></script>
+  <script src="./scripts/app.js"></script>
+  <script src="./scripts/form.js"></script>
+  <script src="./scripts/url.js"></script>
 </html>
