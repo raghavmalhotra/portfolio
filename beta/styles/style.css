@@ -271,7 +271,7 @@ h2 .underline {
   position: absolute;
   transform: translateX(-50%);
   top: -20%;
-  left: 46%;
+  left: 50%;
   border-radius: 1000px;
   background-image: url(../imgs/raghav.jpeg);
   background-repeat: no-repeat;
@@ -437,11 +437,11 @@ form textarea {
   -webkit-text-fill-color: transparent; */
 }
 
-fa-brands {
-  padding: 25px;
+.fa-brands {
+  padding: 5px;
   font-size: 40px;
-  width: 30px;
-
+  width: 60px;
+  height: 60px;
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
@@ -450,20 +450,37 @@ fa-brands {
   transition: all 0.3s;
 }
 
-.fa-brands-dark-theme {
+.fa-brands {
   color: #dfdfdf;
 }
 
-.fa-brands-dark-theme .fa-brands:hover {
+.fa-brands .fa-brands:hover {
   color: #5c5c5c;
 }
 
 .social-container {
-  width: 100%;
+  width: 70%;
   background: rgba(187, 186, 186, 0.119);
-
+  margin: auto;
   text-align: center;
   border-radius: 3px;
+  padding: 20px;
+  margin-top: 40px;
+  text-transform: capitalize;
+  font-size: 22px;
+}
+
+footer {
+  background: #0000004f;
+  color: #dfdfdf;
+  width: 100%;
+
+  font-size: 22px;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 0;
 }
 
 @keyframes gradient {
