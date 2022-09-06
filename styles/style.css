@@ -334,9 +334,14 @@ h2 .underline {
   margin-top: 200px;
   position: relative;
   box-sizing: border-box;
-  background: #0000006b;
+  /* background: #0000006b; */
   padding: 60px 30px;
   box-shadow: 5px 10px 15px #262525b7;
+
+  background: rgba(11, 11, 11, 0.25);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(11, 11, 11, 0.125);
 }
 
 #about-box p {
