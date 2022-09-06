@@ -162,9 +162,9 @@ h1 {
 #section2::after {
   content: '';
   position: absolute;
-  left: -1%;
+  left: 0%;
 
-  width: 101.5%;
+  width: 102%;
   max-height: 20%;
   z-index: 1;
 
@@ -369,6 +369,7 @@ h2 .underline {
   position: relative;
   background: #3a3a46;
   clip-path: polygon(0 5%, 50% 0, 100% 5%, 100% 100%, 0% 100%);
+  z-index: 5;
   color: antiquewhite;
   padding: 20px 0;
   /* text-align: center; */
@@ -561,6 +562,7 @@ img {
   grid-gap: 2rem;
   background: #e9e7e7;
   margin-bottom: 2rem;
+  text-transform: capitalize;
 }
 .card h3 {
   bottom: 2rem;
@@ -586,6 +588,7 @@ img {
   color: #e9e7e7;
   padding: 0.9rem;
   margin-top: 2rem;
+  font-size: 1.4rem;
   cursor: pointer;
   text-decoration: none;
   text-transform: capitalize;

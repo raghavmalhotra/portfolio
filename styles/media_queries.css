@@ -213,12 +213,28 @@
 
 @media only screen and (max-width: 650px) {
   .transition-layer2 {
-    top: -14%;
+    top: -12%;
     height: 16%;
   }
 
   #about-box::after {
     top: -20%;
+  }
+
+  #section1 {
+    animation: gradient 5s ease infinite;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
   }
 }
 
@@ -226,6 +242,18 @@
   #section-3::after {
     top: -7%;
     height: 7%;
+  }
+
+  .project-container {
+    padding: 0 1rem;
+  }
+
+  .main-header {
+    padding: 1rem;
+  }
+
+  .card > div {
+    padding: 1rem;
   }
 }
 
@@ -302,6 +330,13 @@
     top: -4.5%;
     height: 5%;
   }
+
+  #birds {
+    width: 250px;
+    position: absolute;
+    top: 90;
+    right: 150px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -358,7 +393,7 @@
 
   #section2::after {
     height: 2%;
-    top: -2%;
+    top: -1.8%;
   }
 }
 
