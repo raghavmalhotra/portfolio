@@ -293,6 +293,7 @@
 
   #section-4 {
     clip-path: polygon(0 2%, 50% -5%, 100% 2%, 100% 100%, 0% 100%);
+    z-index: 10;
   }
 }
 
@@ -344,6 +345,10 @@
 @media only screen and (max-width: 400px) {
   #section-3 {
     top: 95vh;
+  }
+
+  .card img {
+    height: 300px;
   }
 
   #section-3::after {
