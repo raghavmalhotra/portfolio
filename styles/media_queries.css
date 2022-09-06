@@ -1,22 +1,27 @@
 @media only screen and (max-width: 2150px) {
-  .transition-layer {
-    top: -36%;
-    height: 38%;
+  #section2::after {
+    height: 100%;
+    top: -15%;
   }
 }
 
 @media only screen and (max-width: 1450px) {
   .transition-layer2 {
-    top: -28%;
+    top: -38%;
     height: 30%;
+  }
+
+  #section2::after {
+    top: -14%;
+  }
+
+  #section-3::after {
+    top: -17%;
+    height: 18%;
   }
 }
 
 @media only screen and (max-width: 1200px) {
-  .transition-layer {
-    top: -16%;
-    height: 25%;
-  }
   .transition-layer2 {
     top: -24%;
     height: 25%;
@@ -40,6 +45,11 @@
 
   #about-box::after {
     top: -30%;
+  }
+
+  #section2::after {
+    top: -18%;
+    height: 100%;
   }
 }
 
@@ -65,6 +75,11 @@
 
   #about-box::after {
     top: -30%;
+  }
+
+  #section-3::after {
+    top: -14%;
+    height: 14%;
   }
 }
 
@@ -93,9 +108,14 @@
     width: 100vw;
   }
 
-  .transition-layer {
+  #section2::after {
+    height: 10%;
+    top: -8%;
+  }
+
+  #section-3::after {
     top: -10%;
-    height: 15%;
+    height: 12%;
   }
   .transition-layer2 {
     top: -20%;
@@ -157,9 +177,9 @@
 }
 
 @media only screen and (max-width: 700px) {
-  .transition-layer {
-    top: -8%;
-    height: 8%;
+  #section2::after {
+    height: 3%;
+    top: -3%;
   }
   .transition-layer2 {
     top: -16%;
@@ -170,6 +190,11 @@
     width: 200px;
     height: 60px;
     border-radius: 10px;
+  }
+
+  #section-3::after {
+    top: -8%;
+    height: 8%;
   }
 
   #cta-section {
@@ -194,6 +219,13 @@
 
   #about-box::after {
     top: -20%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #section-3::after {
+    top: -7%;
+    height: 7%;
   }
 }
 
@@ -264,15 +296,21 @@
   }
 }
 
+@media only screen and (max-width: 525px) {
+  #section-3::after {
+    top: -4.5%;
+    height: 5%;
+  }
+}
+
 @media only screen and (max-width: 450px) {
-  .transition-layer2 {
-    top: -10%;
-    height: 11%;
+  #section-3 {
+    top: 95vh;
   }
 
-  .transition-layer {
-    top: -6%;
-    height: 8%;
+  #section-3::after {
+    top: -4.5%;
+    height: 5%;
   }
 
   .container {
@@ -300,6 +338,22 @@
 
   #about-box::after {
     top: -14%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #section-3 {
+    top: 95vh;
+  }
+
+  #section-3::after {
+    top: -3.5%;
+    height: 4%;
+  }
+
+  #section2::after {
+    height: 2%;
+    top: -2%;
   }
 }
 
