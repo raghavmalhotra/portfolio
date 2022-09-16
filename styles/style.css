@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   scroll-behavior: smooth;
@@ -12,6 +12,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
 }
 * {
   box-sizing: border-box;
@@ -70,15 +71,16 @@ h1 {
   font-weight: 300;
   font-size: 46px;
   letter-spacing: 7px;
+  text-transform: capitalize;
   line-height: 55px;
   text-align: left;
 }
 
 #name {
   font-size: 52px;
-  font-weight: 900;
+  font-weight: 700;
   color: #67b9dd;
-  letter-spacing: 0px;
+  letter-spacing: 2px;
 }
 
 #text-section p {
@@ -353,6 +355,10 @@ h2 .underline {
   margin: auto;
   color: #fff;
   padding: 20px;
+}
+
+.faded-black-text {
+  color: #858585;
 }
 /* 
 #about-img {
