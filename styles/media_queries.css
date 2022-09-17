@@ -209,6 +209,10 @@
   #about-box::after {
     top: -24%;
   }
+
+  .card {
+    max-height: 1000px;
+  }
 }
 
 @media only screen and (max-width: 650px) {

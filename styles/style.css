@@ -199,6 +199,7 @@ h2 {
   width: 400px;
   left: 50%;
   transform: translateX(-50%);
+  margin-bottom: 10rem;
 }
 
 h2 .underline {
@@ -553,6 +554,9 @@ img {
   background: #e9e7e7;
   margin-bottom: 2rem;
   text-transform: capitalize;
+  border-radius: 20px;
+  overflow: hidden;
+  /* max-height: 400px; */
 }
 .card h3 {
   bottom: 2rem;
@@ -561,7 +565,7 @@ img {
 }
 
 .card img {
-  height: 400px;
+  height: 100%;
 }
 
 .card > div {
@@ -574,7 +578,7 @@ img {
 
 .btn {
   display: inline-block;
-  background: #000;
+  background: #1e1d1d;
   color: #e9e7e7;
   padding: 0.9rem;
   margin-top: 2rem;
@@ -582,6 +586,15 @@ img {
   cursor: pointer;
   text-decoration: none;
   text-transform: capitalize;
+  border-radius: 5px;
+  transition: all 0.3s;
+  border: 3px solid #1e1d1d00;
+}
+
+.btn:hover {
+  background: transparent;
+  border: 3px solid #1e1d1d;
+  color: #1e1d1d;
 }
 
 .card p {
