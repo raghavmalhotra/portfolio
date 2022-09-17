@@ -79,6 +79,7 @@ h1 {
 #name {
   font-size: 52px;
   font-weight: 700;
+  line-height: 55px;
   color: #67b9dd;
   letter-spacing: 2px;
 }
@@ -107,7 +108,7 @@ h1 {
   background: #f9404b;
   color: #fff;
   text-decoration: none;
-
+  padding-top: 8px;
   font-weight: 500;
   font-size: 32px;
   position: relative;
@@ -141,10 +142,6 @@ h1 {
   background-image: url('./../imgs/me_nobg.png');
   background-position: center;
   background-size: cover;
-}
-
-.dark-bird {
-  /* fill: red; */
 }
 
 /* ---------------------------------------- */
@@ -359,6 +356,7 @@ h2 .underline {
 
 .faded-black-text {
   color: #858585;
+  font-size: 1.2rem;
 }
 /* 
 #about-img {
@@ -456,24 +454,6 @@ form textarea {
   background: #e53535;
 }
 
-#instagram-app-name-box {
-  background: radial-gradient(
-    circle at 30% 107%,
-    #fdf497 0%,
-    #fdf497 5%,
-    #fd5949 45%,
-    #d6249f 60%,
-    #285aeb 90%
-  );
-}
-#instabot-text {
-  color: #ffff;
-
-  /* background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-}
-
 .fa-brands {
   padding: 10px;
   font-size: 40px;
@@ -482,7 +462,6 @@ form textarea {
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 50%;
-
   color: #818181;
   transition: all 0.3s;
 }
@@ -491,8 +470,8 @@ form textarea {
   color: #dfdfdf;
 }
 
-.fa-brands .fa-brands:hover {
-  color: #5c5c5c;
+.fa-brands:hover {
+  color: #8a8888;
 }
 
 .social-container {
@@ -570,7 +549,7 @@ img {
 .card {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 1rem;
   background: #e9e7e7;
   margin-bottom: 2rem;
   text-transform: capitalize;
@@ -578,7 +557,7 @@ img {
 .card h3 {
   bottom: 2rem;
   font-size: 2rem;
-  color: rgb(66, 65, 65);
+  color: #424141;
 }
 
 .card img {
