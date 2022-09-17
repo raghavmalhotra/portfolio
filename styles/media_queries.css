@@ -240,6 +240,10 @@
       background-position: 0% 50%;
     }
   }
+
+  #about-box {
+    width: 95%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -340,11 +344,6 @@
     position: absolute;
     top: 90;
     right: 150px;
-  }
-
-  #about-box {
-    width: 90%;
-    padding: 60px 3px;
   }
 
   #about-box p {
