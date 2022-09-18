@@ -87,7 +87,7 @@
   font-size: 46px;
   letter-spacing: 3px;
   text-align: left;
-
+  text-transform: capitalize;
   /* font-size: 72px; */
   background: -webkit-linear-gradient(right, #fe8989, #79b9f6);
   -webkit-background-clip: text;
