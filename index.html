@@ -31,6 +31,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/about.css" />
     <link rel="stylesheet" href="./styles/media_queries.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
@@ -67,6 +68,7 @@
             fill="#43415B"
           />
         </svg>
+
         <div id="text-section">
           <h1>Hi! My name is <span id="name">Raghav Malhotra </span></h1>
           <p class="hero-para">
@@ -143,24 +145,47 @@
     </div>
 
     <div id="section-3">
-      <h2>About me</h2>
       <div id="about-box">
-        <p>
-          I am a Web-Dev based in Ontario, Canada. Javascript is my biggest
-          strength but I am also proficient in SQL and NoSQL databases like
-          MongoDB. I have studied various programming paradigms and am
-          comfortable with Object-Oriented languages including but not limited
-          to Java, and C++. I am comfortable with building and working with REST
-          APIs (using Node.js and Express).
-        </p>
+        <h2>About me</h2>
 
-        <p>
-          I can work with front-end frameworks like REACT.js . I have good
-          experience working with HTML5 and CSS3 and csss preprocessor (SCSS).
-          Furthermore, I also have a thorough understanding of version control
-          system GIT and graphic manipulation tools like Figma and Adobe
-          Photoshop.
-        </p>
+        <div class="grid-container">
+          <div class="about-card" id="card-1">
+            <div class="img-section">
+              <img src="./imgs/about/toronto_skyline.png" alt="" />
+            </div>
+            <p>
+              Aspiring Web-Dev from Ontario, <br />
+              <span class="canada">Canada</span>
+            </p>
+          </div>
+          <div class="about-card" id="card-2">
+            <div class="img-section">
+              <img src="./imgs/about/tech.png" alt="" />
+            </div>
+            <p>Cloud - Computing Graduate</p>
+          </div>
+          <div class="about-card" id="card-3">
+            <div class="img-section">
+              <img src="./imgs/about/gadgets.png" alt="" />
+            </div>
+            <p>Technology Enthusiast</p>
+          </div>
+        </div>
+
+        <h2 class="mt-med">Skills</h2>
+
+        <div class="grid-container-2">
+          <img src="./imgs/about/skills.svg" alt="programming_skills" />
+          <img src="./imgs/about/react.png" alt="raghav_react" id="img-me" />
+        </div>
+
+        <div id="quote-box">
+          <p>
+            “Anything that can be written in javascript I will write it in
+            javascript” <br />
+            <span id="sb">-Raghav Malhotra</span>
+          </p>
+        </div>
       </div>
     </div>
 

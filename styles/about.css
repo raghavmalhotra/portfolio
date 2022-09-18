@@ -1,0 +1,155 @@
+#about-box::after {
+  content: '';
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  transform: translateX(-50%);
+  top: -5%;
+  left: 50%;
+  border: 15px solid #59597c;
+  border-radius: 1000px;
+  background-image: url(../imgs/raghav.png);
+  background-repeat: no-repeat;
+  background-size: 120% 120%;
+  background-position-x: -20px;
+}
+
+#about-box {
+  background: #262626;
+  max-width: 1300px;
+  min-height: 90vh;
+  color: #ffff;
+  margin: auto;
+  border-radius: 20px;
+  padding: 100px 30px;
+  position: relative;
+}
+
+#about-box > h2 {
+  position: relative;
+  text-transform: capitalize;
+}
+.mt-med {
+  margin-top: 140px;
+}
+#about-box > h2::after {
+  content: '';
+  height: 8px;
+  position: absolute;
+  width: 120px;
+  background-image: linear-gradient(to right, #fe8989, #79b9f6);
+  left: 50%;
+  top: 110%;
+  border-radius: 10px;
+  transform: translateX(-50%);
+}
+
+.grid-container,
+.grid-container-2 {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid-container-2 {
+  width: 100%;
+}
+
+.grid-container > .about-card {
+  background: #fff;
+
+  border-radius: 30px;
+  flex: 1;
+  margin: 20px 30px;
+  /* min-height: 300px; */
+  overflow: hidden;
+  box-shadow: 3px 5px 10px rgb(0, 0, 0);
+  transition: all 0.3s;
+}
+
+.grid-container-2 > img {
+  flex: 1;
+  height: 400px;
+  width: auto;
+  margin: 20px 110px;
+}
+
+#quote-box {
+  width: 85%;
+  margin: auto;
+  margin-top: 250px;
+}
+
+#quote-box p {
+  font-weight: 900;
+  font-size: 46px;
+  letter-spacing: 3px;
+  text-align: left;
+
+  /* font-size: 72px; */
+  background: -webkit-linear-gradient(right, #fe8989, #79b9f6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#sb {
+  font-weight: 300;
+  margin-top: 30px;
+  font-size: 32px;
+}
+
+.grid-container > .about-card:hover {
+  transform: scale(1.1);
+}
+
+.grid-container > .about-card .img-section {
+  height: 140px;
+}
+
+.grid-container > .about-card .img-section img {
+  height: 100%;
+}
+
+.grid-container > .about-card p {
+  font-weight: 500;
+  font-size: 20px;
+  color: #3f3f3f;
+  width: 70%;
+
+  margin: 40px auto;
+  line-height: 28px;
+}
+
+.canada {
+  color: #5facf4;
+  font-weight: 700;
+}
+
+@media (max-width: 1200px) {
+  .grid-container-2 > img {
+    height: 380px;
+
+    margin: 20px 80px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .grid-container-2 > img {
+    height: 340px;
+
+    margin: 20px 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-container,
+  .grid-container-2 {
+    flex-direction: column;
+  }
+
+  #img-me {
+    width: 60%;
+    margin-top: 20px;
+    margin: auto;
+  }
+}

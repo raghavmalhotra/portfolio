@@ -16,8 +16,8 @@
   }
 
   #section-3::after {
-    top: -17%;
-    height: 18%;
+    top: -9%;
+    height: 250px;
   }
 }
 
@@ -27,8 +27,7 @@
     height: 25%;
   }
 
-  #form-box,
-  #about-box {
+  #form-box {
     width: 50%;
   }
 }
@@ -37,14 +36,6 @@
   .transition-layer2 {
     top: -25%;
     height: 25%;
-  }
-  #about-box {
-    width: 70%;
-    padding: 60px 20px;
-  }
-
-  #about-box::after {
-    top: -30%;
   }
 
   #section2::after {
@@ -73,32 +64,22 @@
     padding-bottom: 200px;
   }
 
-  #about-box::after {
-    top: -30%;
-  }
-
   #section-3::after {
-    top: -14%;
-    height: 14%;
+    top: -6%;
+    height: 170px;
   }
 }
 
 @media only screen and (max-width: 1040px) {
-  #about-box {
-    width: 80%;
-  }
 }
 
 @media only screen and (max-width: 1040px) {
-  #about-box {
-    width: 90%;
-    padding: 60px 5px;
-  }
 }
 
 @media only screen and (max-width: 870px) {
   .container {
     padding: 60px 0px;
+    max-width: 1100px;
   }
   #section1 {
     height: 110vh;
@@ -129,6 +110,7 @@
     height: 80vw;
     margin-top: 120px;
   }
+
   #text-section {
     width: 80vw;
   }
@@ -206,10 +188,6 @@
     width: 70%;
   }
 
-  #about-box::after {
-    top: -24%;
-  }
-
   .card {
     max-height: 1000px;
   }
@@ -219,10 +197,6 @@
   .transition-layer2 {
     top: -12%;
     height: 16%;
-  }
-
-  #about-box::after {
-    top: -20%;
   }
 
   #section1 {
@@ -239,10 +213,6 @@
     100% {
       background-position: 0% 50%;
     }
-  }
-
-  #about-box {
-    width: 95%;
   }
 }
 
@@ -383,10 +353,6 @@
     margin-top: 30px;
     border-radius: 10px;
   }
-
-  #about-box::after {
-    top: -14%;
-  }
 }
 
 @media only screen and (max-width: 400px) {
@@ -399,8 +365,8 @@
   }
 
   #section-3::after {
-    top: -3.5%;
-    height: 4%;
+    top: -2%;
+    height: 120px;
   }
 
   #section2::after {

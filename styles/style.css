@@ -154,7 +154,7 @@ h1 {
   color: antiquewhite;
   padding: 10px 0 150px 0;
   text-align: center;
-  padding-bottom: 300px;
+  padding-bottom: 600px;
   position: relative;
 }
 
@@ -278,7 +278,7 @@ h2 .underline {
   box-sizing: border-box;
   background: #59597c;
   color: antiquewhite;
-  padding: 10px 0 350px 0;
+  padding: 100px 0 350px 0;
   text-align: center;
   position: relative;
   z-index: 3;
@@ -287,11 +287,11 @@ h2 .underline {
 #section-3::after {
   position: absolute;
   left: 0;
-  top: -25%;
+  top: -10%;
 
   content: '';
   width: 100vw;
-  height: 25%;
+  height: 300px;
   z-index: -1;
   background-image: url('./../imgs/transition_layer2.svg');
   background-repeat: no-repeat;
@@ -309,53 +309,6 @@ h2 .underline {
   background-repeat: no-repeat;
   background-size: cover;
 } */
-
-#about-box::after {
-  content: '';
-  width: 180px;
-  height: 180px;
-  position: absolute;
-  transform: translateX(-50%);
-  top: -28%;
-  left: 50%;
-  border: 15px solid #59597c;
-  border-radius: 1000px;
-  background-image: url(../imgs/raghav.png);
-  background-repeat: no-repeat;
-  background-size: 120% 120%;
-  background-position-x: -20px;
-}
-
-#about-box {
-  margin-top: 100px;
-  width: 40%;
-  margin: auto;
-  display: table;
-  border-radius: 20px;
-  margin-top: 200px;
-  position: relative;
-  box-sizing: border-box;
-  color: #3c3b3b;
-  /* background: #0000006b; */
-  padding: 60px 30px;
-  box-shadow: 5px 10px 15px #262525b7;
-
-  background: #e7e6e6;
-  /* background-image: linear-gradient(#6868f1, #1d1d89); */
-  -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
-}
-
-#about-box p {
-  font-size: 18px;
-  font-weight: 500;
-  text-align: left;
-  letter-spacing: 3px;
-  width: 90%;
-  margin: auto;
-
-  padding: 20px;
-}
 
 .faded-black-text {
   color: #858585;
