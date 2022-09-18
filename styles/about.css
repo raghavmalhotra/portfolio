@@ -148,9 +148,24 @@
     flex-direction: column;
   }
 
+  #quote-box {
+    width: 90%;
+  }
+
   #img-me {
     width: 60%;
     margin-top: 20px;
     margin: auto;
+  }
+}
+
+@media (max-width: 550px) {
+  #quote-box p {
+    font-weight: 900;
+    font-size: 40px;
+  }
+
+  #quote-box {
+    width: 95%;
   }
 }
