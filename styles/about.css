@@ -33,6 +33,7 @@
   margin-top: 140px;
 }
 #about-box > h2::after {
+  text-transform: capitalize;
   content: '';
   height: 8px;
   position: absolute;
