@@ -278,7 +278,7 @@ h2 .underline {
   box-sizing: border-box;
   background: #59597c;
   color: antiquewhite;
-  padding: 100px 0 350px 0;
+  padding: 100px 0 250px 0;
   text-align: center;
   position: relative;
   z-index: 3;
@@ -466,9 +466,6 @@ footer {
     background-position: 0% 50%;
   }
 }
-
-/* -------------------------------------experimentation--------------
----------------------------------------- */
 
 .project-container {
   max-width: 1100px;

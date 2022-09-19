@@ -373,6 +373,10 @@
     height: 2%;
     top: -1.8%;
   }
+
+  #section-3 {
+    padding-bottom: 140px;
+  }
 }
 
 @media only screen and (max-width: 380px) {
